@@ -10,7 +10,7 @@ import SimpleITK as sitk
 
 from md_clip3d.utils.base.file_tools import load_module_from_disk
 from md_clip3d.utils.clip_fileio import get_input_fieldname_from_csv, get_input_channels_from_fieldname, load_case_csv
-from md_clip3d.utils.clip_utils import calc_lesion_bbox, count_labels, label_connected_component
+from md_clip3d.utils.clip_utils import calc_lesion_bbox, label_connected_component
 from md_clip3d.inference.clip_pyimpl import classify_load_model
 from md_clip3d.inference.clip_predict_coarse import predict_coarse
 from md_clip3d.inference.clip_predict_fine import predict_fine

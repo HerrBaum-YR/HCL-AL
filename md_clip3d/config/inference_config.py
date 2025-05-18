@@ -24,8 +24,9 @@ __C.general.output_folder = "result"
 # the id of GPU used for inference
 __C.general.gpu_id = 1
 
-__C.general.pretrained_model_dir = 'pretrained_models'
-
+# if using a BioMed or PubMed pretrained model,
+# you must download the model in advance and specify the folder path here
+__C.general.pretrained_model_dir = None
 
 ##################################
 # library parameters
