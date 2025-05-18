@@ -1,7 +1,7 @@
 # HCL-AL
 HCL-AL is a hierarchical image-to-text retrieval framework for whole-body anatomical localization in automated radiology report generation. Using CLIP, the framework aligns lesion image patches with textual descriptions of anatomical locations in a shared embedding space, achieving millisecond-level precise lesion localization across nearly 400 anatomical sites.
 
-![Workflow of HCL-AL](approach.png)
+![Workflow of HCL-AL](docs/approach.png)
 
 # Releases
 We have open-sourced the following components in addition to the core framework.
