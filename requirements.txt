@@ -9,3 +9,4 @@ scikit_learn==0.24.1
 setuptools==52.0.0.post20210125
 torch==1.13.1
 transformers==4.23.1
+SimpleITK==2.2.1

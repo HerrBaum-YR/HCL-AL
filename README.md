@@ -12,18 +12,17 @@ We have open-sourced the following components in addition to the core framework.
    - Some complex cases (number of lesions > 200) and false positives are excluded.
    - Each valid lesion was annotated with at least one precise anatomic localization tag (e.g., "Liver S1") following standardized radiological criteria.
 
-# 🚀 Quick Start
+# Quick Start
 - Install the HCL-AL framework
 ```
 git clone https://github.com/HerrBaum-YR/HCL-AL
 cd HCL-AL
-# Install with pip
 pip install -r requirements.txt
 ```
 
 - Download pre-trained models and annotations in our releases
 
-# 🧠 Model Inference
+# Model Inference
 - Configure the inference configuration file by referring [./md_clip3d/config/inference_config.py]
 - Perform inference
 ```

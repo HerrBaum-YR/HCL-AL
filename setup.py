@@ -30,6 +30,7 @@ setup(name='md_clip3d',
           'console_scripts':
               ['clip_coarse_train=md_clip3d.clip_coarse_train:main',
                'clip_fine_train=md_clip3d.clip_fine_train:main',
-               'clip_apply=md_clip3d.inference.clip_apply:main']
+               'clip_apply=md_clip3d.inference.clip_apply:main',
+               'clip_evaluate=md_clip3d.evaluate.evaluate:clip_evaluate']
       }
 )
