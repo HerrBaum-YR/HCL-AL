@@ -3,8 +3,21 @@ HCL-AL is a hierarchical image-to-text retrieval framework for whole-body anatom
 
 <!-- ![Workflow of HCL-AL](docs/approach.png) -->
 
-# Releases
-We have open-sourced the following components in addition to the core framework.
+We have open-sourced the following modules:
+- Main body of the framework
+   - Code for full training and inference pipelines
+   - Predefined anatomy knowledge
+```
+   md_clip3d                                                 
+   ├── config                                            
+   |   ├── coarse_train_config.py                        Reference configuration file for coarse training
+   |   ├── fine_train_config.py                          Reference configuration file for fine training
+   |   └── inference_config.py                           Reference configuration file for inference
+   └── library                                           
+       ├── anatomy_vocabulary_library.json               Hierarchical anatomical vocabulary library
+       └── augmented_location_descriptions.json          Augmented anatomical location description
+```
+
 - Anatomical Localization Models (https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-weights)
    - Coarse-grained and fine-grained CLIP pretrained models for lesion localization
 
@@ -22,19 +35,6 @@ cd HCL-AL
 pip install -r requirements.txt
 ```
 - Download pre-trained models and annotations in our releases
-
-- Key configuration files are described as follows
-```
-   md_clip3d                                                 
-   ├── config                                            
-   |   ├── coarse_train_config.py                        Reference configuration file for coarse training
-   |   ├── fine_train_config.py                          Reference configuration file for fine training
-   |   └── inference_config.py                           Reference configuration file for inference
-   └── library                                           
-       ├── anatomy_vocabulary_library.json               Hierarchical anatomical vocabulary library
-       └── augmented_location_descriptions.json          Augmented anatomical location description
-```
-
 
 
 # Model Inference
