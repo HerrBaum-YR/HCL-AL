@@ -1,0 +1,653 @@
+{
+   "Head": {
+     "Outside the body": {
+       "Outside the body": "Outside the body"
+     },
+     "Skull": {
+       "Skull": "Skull",
+       "Left mastoid process": "Left mastoid process",
+       "Right mastoid process": "Right mastoid process",
+       "Maxilla": "Maxilla",
+       "Mandible": "Mandible",
+       "Upper alveolar cavity": "Upper alveolar cavity",
+       "Lower alveolar cavity": "Lower alveolar cavity"
+     },
+     "Brain": {
+       "Brain": "Brain"
+     },
+     "Left occipital region": {
+       "Occipital muscles": "Left occipital muscle",
+       "Occipital subcutaneous tissue": "Left occipital subcutaneous tissue"
+     },
+     "Right occipital region": {
+       "Occipital muscles": "Right occipital muscle",
+       "Occipital subcutaneous tissue": "Right occipital subcutaneous tissue"
+     },
+     "Left head": {
+       "Head muscles": "Left facial muscle",
+       "Head subcutaneous tissue": "Left facial subcutaneous tissue"
+     },
+     "Right head": {
+       "Head muscles": "Right facial muscle",
+       "Head subcutaneous tissue": "Right facial subcutaneous tissue"
+     },
+     "Left eye": {
+       "Eye": "Left eye"
+     },
+     "Right eye": {
+       "Eye": "Right eye"
+     },
+     "Left ear": {
+       "Ear": "Left ear"
+     },
+     "Right ear": {
+       "Ear": "Right ear"
+     },
+     "Nose": {
+       "Left nasal cavity": "Left nasal cavity",
+       "Right nasal cavity": "Right nasal cavity",
+       "Left nasal sinus": "Left nasal sinus",
+       "Right nasal sinus": "Right nasal sinus"
+     }
+   },
+   "Neck": {
+     "Tongue": {
+       "Tongue": "Tongue",
+       "Base of tongue": "Base of tongue"
+     },
+     "Pharynx": {
+       "Nasopharynx": "Nasopharynx",
+       "Left retropharyngeal": "Left retropharyngeal",
+       "Right retropharyngeal": "Right retropharyngeal",
+       "Oropharynx": "Oropharynx",
+       "Left tonsil": "Left tonsil",
+       "Right tonsil": "Right tonsil",
+       "Larynx": "Larynx"
+     },
+     "Left neck": {
+       "Neck": "Left neck",
+       "Parapharyngeal space": "Left parapharyngeal",
+       "Neck muscles": "Left neck muscle",
+       "Neck subcutaneous tissue": "Left neck subcutaneous tissue",
+       "Parotid gland": "Left parotid gland",
+       "Submandibular gland": "Left submandibular gland",
+       "Clavicle": "Left clavicle",
+       "Clavicular region": "Left supraclavicular"
+     },
+     "Right neck": {
+       "Neck": "Right neck",
+       "Parapharyngeal space": "Right parapharyngeal",
+       "Neck muscles": "Right neck muscle",
+       "Neck subcutaneous tissue": "Right neck subcutaneous tissue",
+       "Parotid gland": "Right parotid gland",
+       "Submandibular gland": "Right submandibular gland",
+       "Clavicle": "Right clavicle",
+       "Clavicular region": "Right supraclavicular"
+     },
+     "Thyroid gland": {
+       "Left lobe of thyroid": "Left lobe of thyroid",
+       "Right lobe of thyroid": "Right lobe of thyroid",
+       "Isthmus of thyroid": "Isthmus of thyroid"
+     }
+   },
+   "Chest": {
+     "Left chest": {
+       "Chest muscles": "Left chest muscle",
+       "Chest subcutaneous tissue": "Left chest subcutaneous tissue",
+       "Deep chest muscle": "Inner side of the left pectoralis minor muscle",
+       "Intercostal space": "Left interpectoral space",
+       "Chest wall": "Left chest wall",
+       "Internal mammary region": "Left internal mammary region",
+       "Costophrenic angle": "Left costophrenic angle",
+       "Costosternal joint": "Left sternocostal joint",
+       "Sternoclavicular joint": "Left sternoclavicular joint",
+       "Costovertebral joint": "Left costovertebral joint"
+     },
+     "Right chest": {
+       "Chest muscles": "Right chest muscle",
+       "Chest subcutaneous tissue": "Right chest subcutaneous tissue",
+       "Deep chest muscle": "Inner side of the right pectoralis minor muscle",
+       "Intercostal space": "Right interpectoral space",
+       "Chest wall": "Right chest wall",
+       "Internal mammary region": "Right internal mammary region",
+       "Costophrenic angle": "Right costophrenic angle",
+       "Costosternal joint": "Right sternocostal joint",
+       "Sternoclavicular joint": "Right sternoclavicular joint",
+       "Costovertebral joint": "Right costovertebral joint"
+     },
+     "Left axilla": {
+       "Axilla": "Left axilla",
+       "Deep surface of latissimus dorsi": "Deep aspect of left latissimus dorsi"
+     },
+     "Right axilla": {
+       "Axilla": "Right axilla",
+       "Deep surface of latissimus dorsi": "Deep aspect of right latissimus dorsi"
+     },
+     "Left breast": {
+       "Breast": "Left breast",
+       "Nipple": "Left nipple",
+       "Mammary gland": "Left mammary gland"
+     },
+     "Right breast": {
+       "Breast": "Right breast",
+       "Nipple": "Right nipple",
+       "Mammary gland": "Right mammary gland"
+     },
+     "Left upper back": {
+       "Back muscles": "Left upper back muscle",
+       "Back subcutaneous tissue": "Left upper back subcutaneous tissue"
+     },
+     "Right upper back": {
+       "Back muscles": "Right upper back muscle",
+       "Back subcutaneous tissue": "Right upper back subcutaneous tissue"
+     },
+     "Mediastinum": {
+       "Mediastinum 1R": "Mediastinum 1R",
+       "Mediastinum 1L": "Mediastinum 1L",
+       "Mediastinum 2R": "Mediastinum 2R",
+       "Mediastinum 2L": "Mediastinum 2L",
+       "Mediastinum 3A": "Mediastinum 3A",
+       "Mediastinum 3P": "Mediastinum 3P",
+       "Mediastinum 4R": "Mediastinum 4R",
+       "Mediastinum 4L": "Mediastinum 4L",
+       "Mediastinum 5": "Mediastinum 5",
+       "Mediastinum 6": "Mediastinum 6",
+       "Mediastinum 7": "Mediastinum 7",
+       "Mediastinum 8": "Mediastinum 8",
+       "Mediastinum 9": "Mediastinum 9",
+       "Pericardiophrenic region": "Pericardiophrenic region",
+       "Left pulmonary hilum": "Left pulmonary hilum",
+       "Right pulmonary hilum": "Right pulmonary hilum",
+       "Esophagus": "Esophagus",
+       "Trachea": "Trachea",
+       "Aorta": "Thoracic aorta"
+     },
+     "Heart": {
+       "Heart": "Heart",
+       "Pericardium": "Pericardium"
+     },
+     "Left lung": {
+       "Left upper lobe apex posterior segment": "Left upper lobe apex posterior segment",
+       "Left upper lobe anterior segment": "Left upper lobe anterior segment",
+       "Left upper lobe upper tongue segment": "Left upper lobe upper tongue segment",
+       "Left upper lobe lower tongue segment": "Left upper lobe lower tongue segment",
+       "Left lower lobe dorsal segment": "Left lower lobe dorsal segment",
+       "Left lower lobe anterior basal segment": "Left lower lobe anterior basal segment",
+       "Left lower lobe outer basal segment": "Left lower lobe outer basal segment",
+       "Left lower lobe posterior basal segment": "Left lower lobe posterior basal segment"
+     },
+     "Right lung": {
+       "Right upper lobe apex segment": "Right upper lobe apex segment",
+       "Right upper lobe posterior segment": "Right upper lobe posterior segment",
+       "Right upper lobe anterior segment": "Right upper lobe anterior segment",
+       "Right middle lobe lateral segment": "Right middle lobe lateral segment",
+       "Right middle lobe medial segment": "Right middle lobe medial segment",
+       "Right lower lobe dorsal segment": "Right lower lobe dorsal segment",
+       "Right lower lobe inner basal segment": "Right lower lobe inner basal segment",
+       "Right lower lobe anterior basal segment": "Right lower lobe anterior basal segment",
+       "Right lower lobe outer basal segment": "Right lower lobe outer basal segment",
+       "Right lower lobe posterior basal segment": "Right lower lobe posterior basal segment"
+     }
+   },
+   "Abdomen": {
+     "Abdominal cavity": {
+       "Abdominal cavity": "Abdominal cavity",
+       "Hepatic-gastric space": "Hepatic-gastric space",
+       "Splenic-gastric space": "Splenic-gastric space",
+       "Peritoneum": "Peritoneum",
+       "Mesentery": "Mesentery"
+     },
+     "Retroperitoneum": {
+       "Retroperitoneum": "Retroperitoneum",
+       "Left crus of diaphragm": "Left crus of diaphragm",
+       "Right crus of diaphragm": "Right crus of diaphragm",
+       "Left diaphragm": "Left diaphragm",
+       "Right diaphragm": "Right diaphragm",
+       "Left adrenal gland": "Left adrenal gland",
+       "Right adrenal gland": "Right adrenal gland",
+       "Ureter": "Ureter",
+       "Aorta": "Abdominal aorta"
+     },
+     "Spleen": {
+       "Spleen": "Spleen",
+       "Splenic hilum": "Splenic hilum",
+       "Around the spleen": "Around the spleen"
+     },
+     "Stomach": {
+       "Stomach": "Stomach",
+       "Cardia of stomach": "Cardia of stomach",
+       "Near the stomach": "Near the stomach"
+     },
+     "Liver": {
+       "Liver S1": "Liver S1",
+       "Liver S2": "Liver S2",
+       "Liver S3": "Liver S3",
+       "Liver S4": "Liver S4",
+       "Liver S5": "Liver S5",
+       "Liver S6": "Liver S6",
+       "Liver S7": "Liver S7",
+       "Liver S8": "Liver S8",
+       "Porta hepatis": "Porta hepatis",
+       "Around the liver": "Around the liver"
+     },
+     "Gallbladder": {
+       "Gallbladder": "Gallbladder"
+     },
+     "Pancreas": {
+       "Pancreas": "Pancreas",
+       "Around the pancreas": "Around the pancreas"
+     },
+     "Left kidney": {
+       "Kidney": "Left kidney",
+       "Perirenal fascia": "Renal fascia of left kidney"
+     },
+     "Right kidney": {
+       "Kidney": "Right kidney",
+       "Perirenal fascia": "Renal fascia of right kidney"
+     },
+     "Large intestine": {
+       "Large intestine": "Large intestine",
+       "Cecum": "Cecum",
+       "Appendix": "Appendix",
+       "Rectum": "Rectum",
+       "Anal canal": "Anal canal"
+     },
+     "Small intestine": {
+       "Small intestine": "Small intestine"
+     },
+     "Left abdomen": {
+       "Abdominal subcutaneous tissue": "Left abdominal subcutaneous tissue",
+       "Abdominal wall": "Left abdominal wall"
+     },
+     "Right abdomen": {
+       "Abdominal subcutaneous tissue": "Right abdominal subcutaneous tissue",
+       "Abdominal wall": "Right abdominal wall"
+     },
+     "Navel": {
+       "Navel": "Navel"
+     },
+     "Left lower back": {
+       "Back muscles": "Left lower back muscle",
+       "Back subcutaneous tissue": "Left lower back subcutaneous tissue",
+       "Lumbodorsal muscles": "Left lumbar muscle"
+     },
+     "Right lower back": {
+       "Back muscles": "Right lower back muscle",
+       "Back subcutaneous tissue": "Right lower back subcutaneous tissue",
+       "Lumbodorsal muscles": "Right lumbar muscle"
+     }
+   },
+   "Pelvis": {
+     "Pelvic cavity": {
+       "Pelvic cavity": "Pelvic cavity",
+       "Left iliac vessel": "Left iliac vessel",
+       "Near left iliac vessel": "Near left iliac vessel",
+       "Right iliac vessel": "Right iliac vessel",
+       "Near right iliac vessel": "Near right iliac vessel",
+       "Peritoneum": "Pelvic peritoneum",
+       "Mesentery": "Pelvic mesentery",
+       "Ureter": "Ureter in pelvic cavity"
+     },
+     "Bladder": {
+       "Bladder": "Bladder"
+     },
+     "Reproductive system": {
+       "Prostate gland": "Prostate gland",
+       "Scrotum": "Scrotum",
+       "Penis": "Penis",
+       "Uterus": "Uterus",
+       "Left uterine appendage": "Left uterine appendage",
+       "Right uterine appendage": "Right uterine appendage"
+     },
+     "Urethra": {
+       "Urethra": "Urethra",
+       "Vagina": "Vagina"
+     },
+     "Left inguinal region": {
+       "Inguinal region": "Left inguinal region"
+     },
+     "Right inguinal region": {
+       "Inguinal region": "Right inguinal region"
+     }
+   },
+   "Axial skeleton": {
+     "Vertebra C1": {
+       "Cervical spine": "Vertebra C1",
+       "Spinous process": "Spinous process of vertebra C1",
+       "Paracervical": "Near vertebra C1"
+     },
+     "Vertebra C2": {
+       "Cervical spine": "Vertebra C2",
+       "Spinous process": "Spinous process of vertebra C2",
+       "Paracervical": "Near vertebra C2"
+     },
+     "Vertebra C3": {
+       "Cervical spine": "Vertebra C3",
+       "Spinous process": "Spinous process of vertebra C3",
+       "Paracervical": "Near vertebra C3"
+     },
+     "Vertebra C4": {
+       "Cervical spine": "Vertebra C4",
+       "Spinous process": "Spinous process of vertebra C4",
+       "Paracervical": "Near vertebra C4"
+     },
+     "Vertebra C5": {
+       "Cervical spine": "Vertebra C5",
+       "Spinous process": "Spinous process of vertebra C5",
+       "Paracervical": "Near vertebra C5"
+     },
+     "Vertebra C6": {
+       "Cervical spine": "Vertebra C6",
+       "Spinous process": "Spinous process of vertebra C6",
+       "Paracervical": "Near vertebra C6"
+     },
+     "Vertebra C7": {
+       "Cervical spine": "Vertebra C7",
+       "Spinous process": "Spinous process of vertebra C7",
+       "Paracervical": "Near vertebra C7"
+     },
+     "Vertebra T1": {
+       "Thoracic spine": "Vertebra T1",
+       "Spinous process": "Spinous process of vertebra T1",
+       "Paravertebral thoracic": "Near vertebra T1"
+     },
+     "Vertebra T2": {
+       "Thoracic spine": "Vertebra T2",
+       "Spinous process": "Spinous process of vertebra T2",
+       "Paravertebral thoracic": "Near vertebra T2"
+     },
+     "Vertebra T3": {
+       "Thoracic spine": "Vertebra T3",
+       "Spinous process": "Spinous process of vertebra T3",
+       "Paravertebral thoracic": "Near vertebra T3"
+     },
+     "Vertebra T4": {
+       "Thoracic spine": "Vertebra T4",
+       "Spinous process": "Spinous process of vertebra T4",
+       "Paravertebral thoracic": "Near vertebra T4"
+     },
+     "Vertebra T5": {
+       "Thoracic spine": "Vertebra T5",
+       "Spinous process": "Spinous process of vertebra T5",
+       "Paravertebral thoracic": "Near vertebra T5"
+     },
+     "Vertebra T6": {
+       "Thoracic spine": "Vertebra T6",
+       "Spinous process": "Spinous process of vertebra T6",
+       "Paravertebral thoracic": "Near vertebra T6"
+     },
+     "Vertebra T7": {
+       "Thoracic spine": "Vertebra T7",
+       "Spinous process": "Spinous process of vertebra T7",
+       "Paravertebral thoracic": "Near vertebra T7"
+     },
+     "Vertebra T8": {
+       "Thoracic spine": "Vertebra T8",
+       "Spinous process": "Spinous process of vertebra T8",
+       "Paravertebral thoracic": "Near vertebra T8"
+     },
+     "Vertebra T9": {
+       "Thoracic spine": "Vertebra T9",
+       "Spinous process": "Spinous process of vertebra T9",
+       "Paravertebral thoracic": "Near vertebra T9"
+     },
+     "Vertebra T10": {
+       "Thoracic spine": "Vertebra T10",
+       "Spinous process": "Spinous process of vertebra T10",
+       "Paravertebral thoracic": "Near vertebra T10"
+     },
+     "Vertebra T11": {
+       "Thoracic spine": "Vertebra T11",
+       "Spinous process": "Spinous process of vertebra T11",
+       "Paravertebral thoracic": "Near vertebra T11"
+     },
+     "Vertebra T12": {
+       "Thoracic spine": "Vertebra T12",
+       "Spinous process": "Spinous process of vertebra T12",
+       "Paravertebral thoracic": "Near vertebra T12"
+     },
+     "Vertebra L1": {
+       "Lumbar spine": "Vertebra L1",
+       "Spinous process": "Spinous process of vertebra L1",
+       "Paralumbar": "Near vertebra L1"
+     },
+     "Vertebra L2": {
+       "Lumbar spine": "Vertebra L2",
+       "Spinous process": "Spinous process of vertebra L2",
+       "Paralumbar": "Near vertebra L2"
+     },
+     "Vertebra L3": {
+       "Lumbar spine": "Vertebra L3",
+       "Spinous process": "Spinous process of vertebra L3",
+       "Paralumbar": "Near vertebra L3"
+     },
+     "Vertebra L4": {
+       "Lumbar spine": "Vertebra L4",
+       "Spinous process": "Spinous process of vertebra L4",
+       "Paralumbar": "Near vertebra L4"
+     },
+     "Vertebra L5": {
+       "Lumbar spine": "Vertebra L5",
+       "Spinous process": "Spinous process of vertebra L5",
+       "Paralumbar": "Near vertebra L5"
+     },
+     "Vertebra L6": {
+       "Lumbar spine": "Vertebra L6",
+       "Spinous process": "Spinous process of vertebra L6",
+       "Paralumbar": "Near vertebra L6"
+     },
+     "Sternum": {
+       "Sternum": "Sternum",
+       "Near sternum": "Near sternum"
+     },
+     "Rib L1": {
+       "Rib": "Rib L1"
+     },
+     "Rib L2": {
+       "Rib": "Rib L2"
+     },
+     "Rib L3": {
+       "Rib": "Rib L3"
+     },
+     "Rib L4": {
+       "Rib": "Rib L4"
+     },
+     "Rib L5": {
+       "Rib": "Rib L5"
+     },
+     "Rib L6": {
+       "Rib": "Rib L6"
+     },
+     "Rib L7": {
+       "Rib": "Rib L7"
+     },
+     "Rib L8": {
+       "Rib": "Rib L8"
+     },
+     "Rib L9": {
+       "Rib": "Rib L9"
+     },
+     "Rib L10": {
+       "Rib": "Rib L10"
+     },
+     "Rib L11": {
+       "Rib": "Rib L11"
+     },
+     "Rib L12": {
+       "Rib": "Rib L12"
+     },
+     "Rib R1": {
+       "Rib": "Rib R1"
+     },
+     "Rib R2": {
+       "Rib": "Rib R2"
+     },
+     "Rib R3": {
+       "Rib": "Rib R3"
+     },
+     "Rib R4": {
+       "Rib": "Rib R4"
+     },
+     "Rib R5": {
+       "Rib": "Rib R5"
+     },
+     "Rib R6": {
+       "Rib": "Rib R6"
+     },
+     "Rib R7": {
+       "Rib": "Rib R7"
+     },
+     "Rib R8": {
+       "Rib": "Rib R8"
+     },
+     "Rib R9": {
+       "Rib": "Rib R9"
+     },
+     "Rib R10": {
+       "Rib": "Rib R10"
+     },
+     "Rib R11": {
+       "Rib": "Rib R11"
+     },
+     "Rib R12": {
+       "Rib": "Rib R12"
+     },
+     "Left hip bone": {
+       "Ischium": "Left ischium",
+       "Paraischial": "Near left ischium",
+       "Pubic bone": "Left pubis",
+       "Parapubic": "Near left pubis",
+       "Ilium": "Left ilium",
+       "Para-iliac": "Near left ilium",
+       "Sacroiliac joint": "Left sacroiliac joint",
+       "Hip joint": "Left hip joint"
+     },
+     "Right hip bone": {
+       "Ischium": "Right ischium",
+       "Paraischial": "Near right ischium",
+       "Pubic bone": "Right pubis",
+       "Parapubic": "Near right pubis",
+       "Ilium": "Right ilium",
+       "Para-iliac": "Near right ilium",
+       "Sacroiliac joint": "Right sacroiliac joint",
+       "Hip joint": "Right hip joint"
+     },
+     "Sacrococcygeal": {
+       "Sacrum": "Sacrum",
+       "Coccyx": "Coccyx",
+       "Near coccyx": "Near coccyx"
+     }
+   },
+   "Upper limb": {
+     "Left shoulder": {
+       "Scapula": "Left scapula",
+       "Shoulder muscles": "Left shoulder muscle",
+       "Between shoulder muscles": "Between left shoulder muscles",
+       "Shoulder subcutaneous tissue": "Left shoulder subcutaneous tissue",
+       "Shoulder joint": "Left shoulder joint"
+     },
+     "Right shoulder": {
+       "Scapula": "Right scapula",
+       "Shoulder muscles": "Right shoulder muscle",
+       "Between shoulder muscles": "Between right shoulder muscles",
+       "Shoulder subcutaneous tissue": "Right shoulder subcutaneous tissue",
+       "Shoulder joint": "Right shoulder joint"
+     },
+     "Left hand": {
+       "Hand": "Left hand"
+     },
+     "Left forearm": {
+       "Hand muscles": "Left forearm muscle",
+       "Between hand muscles": "Between left forearm muscles",
+       "Hand subcutaneous tissue": "Left forearm subcutaneous tissue",
+       "Ulna": "Left ulna",
+       "Radius": "Left radius"
+     },
+     "Left elbow": {
+       "Supratrochlear": "Left epitrochlear region",
+       "Elbow joint": "Left elbow joint"
+     },
+     "Left upper arm": {
+       "Hand muscles": "Left upper arm muscle",
+       "Between hand muscles": "Between left upper arm muscles",
+       "Hand subcutaneous tissue": "Left upper arm subcutaneous tissue",
+       "Humerus": "Left humerus"
+     },
+     "Right hand": {
+       "Hand": "Right hand"
+     },
+     "Right forearm": {
+       "Hand muscles": "Right forearm muscle",
+       "Between hand muscles": "Between right forearm muscles",
+       "Hand subcutaneous tissue": "Right forearm subcutaneous tissue",
+       "Ulna": "Right ulna",
+       "Radius": "Right radius"
+     },
+     "Right elbow": {
+       "Supratrochlear": "Right epitrochlear region",
+       "Elbow joint": "Right elbow joint"
+     },
+     "Right upper arm": {
+       "Hand muscles": "Right upper arm muscle",
+       "Between hand muscles": "Between right upper arm muscles",
+       "Hand subcutaneous tissue": "Right upper arm subcutaneous tissue",
+       "Humerus": "Right humerus"
+     }
+   },
+   "Lower limb": {
+     "Left buttock": {
+       "Buttock muscles": "Left buttock muscle",
+       "Between buttock muscles": "Between left buttock muscles",
+       "Buttock subcutaneous tissue": "Left buttock subcutaneous tissue"
+     },
+     "Left thigh": {
+       "Leg muscles": "Left thigh muscle",
+       "Between leg muscles": "Between left thigh muscles",
+       "Leg subcutaneous tissue": "Left thigh subcutaneous tissue",
+       "Femur": "Left femur",
+       "Parafemoral": "Near left femur"
+     },
+     "Left knee": {
+       "Patella": "Left patella",
+       "Popliteal fossa": "Left popliteal fossa",
+       "Knee joint": "Left knee joint"
+     },
+     "Left lower leg": {
+       "Leg muscles": "Left calf muscle",
+       "Between leg muscles": "Between left calf muscles",
+       "Leg subcutaneous tissue": "Left calf subcutaneous tissue",
+       "Fibula": "Left fibula",
+       "Tibia": "Left tibia"
+     },
+     "Left foot": {
+       "Foot": "Left foot"
+     },
+     "Right buttock": {
+       "Buttock muscles": "Right buttock muscle",
+       "Between buttock muscles": "Between right buttock muscles",
+       "Buttock subcutaneous tissue": "Right buttock subcutaneous tissue"
+     },
+     "Right thigh": {
+       "Leg muscles": "Right thigh muscle",
+       "Between leg muscles": "Between right thigh muscles",
+       "Leg subcutaneous tissue": "Right thigh subcutaneous tissue",
+       "Femur": "Right femur",
+       "Parafemoral": "Near right femur"
+     },
+     "Right knee": {
+       "Patella": "Right patella",
+       "Popliteal fossa": "Right popliteal fossa",
+       "Knee joint": "Right knee joint"
+     },
+     "Right lower leg": {
+       "Leg muscles": "Right calf muscle",
+       "Between leg muscles": "Between right calf muscles",
+       "Leg subcutaneous tissue": "Right calf subcutaneous tissue",
+       "Fibula": "Right fibula",
+       "Tibia": "Right tibia"
+     },
+     "Right foot": {
+       "Foot": "Right foot"
+     }
+   }
+ }
