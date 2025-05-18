@@ -1,5 +1,6 @@
 import os
 import csv
+import argparse
 import numpy as np
 
 from md_clip3d.utils.clip_utils import box_iou
@@ -61,7 +62,8 @@ def clip_evaluate(result_csv, gt_csv):
    print()
 
 if __name__ == '__main__':
-
-   gt_csv = "/mnt/AI_Station/PET_CT_Fusion/project/yiran/clip_paper/Dataset/Auto_PET/public/anno.csv"
-   result_csv = "/mnt/AI_Station/PET_CT_Fusion/project/yiran/clip_paper/Dataset/Auto_PET/public/backup/mask/input_box_pred.csv"
-   clip_evaluate(result_csv, gt_csv)
+   parser = argparse.ArgumentParser(description="UII CLIP3D Inference Engine")
+   parser.add_argument('-i', '--input', type=str, nargs='?', help='clip inference input file')
+   parser.add_argument('-g', '--gt', type=str, nargs='?', help='ground truth file')
+   args = parser.parse_args()
+   clip_evaluate(args.input, args.gt)

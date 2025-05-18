@@ -103,10 +103,11 @@ class TextEncoder(nn.Module):
       self.ln_final = LayerNorm(self.transformer_width)
       self.text_projection = nn.Parameter(torch.empty(self.transformer_width, self.embed_dim))
 
-      with open(os.path.join(pretrained_model_dir, "Clip-ViT-B-32/ViT-B-32.pt"), 'rb') as opened_file:
-         model = torch.jit.load(opened_file)
-      state_dict = model.state_dict()
-      self.load_state_dict(state_dict, strict=False)
+      if pretrained_model_dir:
+         with open(os.path.join(pretrained_model_dir, "Clip-ViT-B-32/ViT-B-32.pt"), 'rb') as opened_file:
+            model = torch.jit.load(opened_file)
+         state_dict = model.state_dict()
+         self.load_state_dict(state_dict, strict=False)
    
    def build_attention_mask(self):
       # lazily create causal attention mask, with full attention between the vision tokens

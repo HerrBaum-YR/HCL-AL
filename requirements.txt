@@ -1,0 +1,12 @@
+easydict==1.10
+ftfy==6.2.3
+future==0.18.2
+matplotlib==3.3.4
+numpy==1.20.1
+pandas==1.2.4
+regex==2021.4.4
+scikit_learn==0.24.1
+setuptools==52.0.0.post20210125
+torch==1.13.1
+transformers==4.23.1
+SimpleITK==2.2.1
