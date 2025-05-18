@@ -1,7 +1,7 @@
 # HCL-AL
 HCL-AL is a hierarchical image-to-text retrieval framework for whole-body anatomical localization in automated radiology report generation. Using CLIP, the framework aligns lesion image patches with textual descriptions of anatomical locations in a shared embedding space, achieving millisecond-level precise lesion localization across nearly 400 anatomical sites.
 
-![Workflow of HCL-AL](docs/approach.png)
+<!-- ![Workflow of HCL-AL](docs/approach.png) -->
 
 # Releases
 We have open-sourced the following components in addition to the core framework.
@@ -21,19 +21,21 @@ cd HCL-AL
 
 pip install -r requirements.txt
 ```
+- Download pre-trained models and annotations in our releases
+
 - Key configuration files are described as follows
 ```
-   md_clip3d        
-   ├── config     
+   md_clip3d                                                 
+   ├── config                                            
    |   ├── coarse_train_config.py                        Reference configuration file for coarse training
    |   ├── fine_train_config.py                          Reference configuration file for fine training
    |   └── inference_config.py                           Reference configuration file for inference
-   └── library    Predefined anatomical knowledge
+   └── library                                           
        ├── anatomy_vocabulary_library.json               Hierarchical anatomical vocabulary library
        └── augmented_location_descriptions.json          Augmented anatomical location description
 ```
 
-- Download pre-trained models and annotations in our releases
+
 
 # Model Inference
 - Configure the inference configuration file
