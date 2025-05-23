@@ -32,24 +32,24 @@ To quickly run localization inference, please download the required data and pre
 and then organize them as follows:
 ```
 HCL-AL
-├── data
-│     ├── FDG-PET-CT-Lesions                               # Paired PET/CT scans (NIfTI format)                                     
-|     |    ├── 0001_PETCT_0011f3deaf_03-23-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-10445
-|     |    |     ├── CT.nii.gz
-|     |    |     └── SUV.nii.gz
-|     |    └── ...
-|     ├── lesion_mask                                      # Multi-label lesion segmentation masks (NIfTI format)  
-|     |    ├── 0001_PETCT_0011f3deaf_03-23-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-10445
-|     |    |     └── SEG_MultiLabel.nii.gz
-|     |    └── ...
-|     ├── anno.csv                                         # Curated lesion localization annotations
-|     └── bbox.csv                                         # Bounding box coordinates of annotated lesions
-├── pretrained_weights                                   # Pretrained models
-└── md_clip3d                                            # Main body of framework
-      ├── library                                           # Predefined anatomy knowledge                                        
-      |   ├── anatomy_vocabulary_library.json               # Hierarchical anatomical vocabulary library
-      |   └── augmented_location_descriptions.json          # Augmented anatomical location description
-      └── ...
+   ├── data
+   │     ├── FDG-PET-CT-Lesions                               # Paired PET/CT scans (NIfTI format)                                     
+   |     |    ├── 0001_PETCT_0011f3deaf_03-23-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-10445
+   |     |    |     ├── CT.nii.gz
+   |     |    |     └── SUV.nii.gz
+   |     |    └── ...
+   |     ├── lesion_mask                                      # Multi-label lesion segmentation masks (NIfTI format)  
+   |     |    ├── 0001_PETCT_0011f3deaf_03-23-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-10445
+   |     |    |     └── SEG_MultiLabel.nii.gz
+   |     |    └── ...
+   |     ├── anno.csv                                         # Curated lesion localization annotations
+   |     └── bbox.csv                                         # Bounding box coordinates of annotated lesions
+   ├── pretrained_weights                                   # Pretrained models
+   └── md_clip3d                                            # Main body of framework
+         ├── library                                           # Predefined anatomy knowledge                                        
+         |   ├── anatomy_vocabulary_library.json               # Hierarchical anatomical vocabulary library
+         |   └── augmented_location_descriptions.json          # Augmented anatomical location description
+         └── ...
 ```
 
 Then create your inference configuration file. We provide a reference template at:
