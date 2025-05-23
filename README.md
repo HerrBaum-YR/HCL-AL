@@ -23,6 +23,7 @@ First, install this repo as a Python package. The following will do the trick:
 git clone https://github.com/HerrBaum-YR/HCL-AL
 cd HCL-AL
 pip install -r requirements.txt
+pip install -e .
 ```
 
 To quickly run localization inference, please download the required data and pretrained models:
