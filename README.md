@@ -8,10 +8,10 @@ Our work consists of the following modules:
    - Code for full training and inference pipelines
    - Predefined anatomy knowledge
 
-- Pretrained hierarchical localization model [Anatomical Localization Models](https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-weights)
+- Pretrained hierarchical localization model: [Anatomical Localization Models](https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-weights)
    - Coarse-grained and fine-grained CLIP pretrained models for lesion localization
 
-- Newly released lesion localization annotations [Anatomical Localization Annotations](https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-annotations)
+- Newly released lesion localization annotations: [Anatomical Localization Annotations](https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-annotations)
    - The PET/CT scans and lesion annotations are sourced from the [Auto-PET challenge](https://autopet.grand-challenge.org/).
    - Some complex cases (number of lesions > 200) and false positives are excluded.
    - Each valid lesion was annotated with at least one precise anatomic localization tag (e.g., "Liver S1") following standardized radiological criteria.
@@ -27,28 +27,29 @@ pip install -r requirements.txt
 
 To quickly run localization inference, please download the required data and pretrained models:
 - A publicly available collection of PET/CT scans released by [Auto-PET challenge](https://autopet.grand-challenge.org/)
-- Curated lesion localization annotations [Anatomical Localization Annotations](https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-annotations)
+- Curated lesion localization annotations: [Anatomical Localization Annotations](https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-annotations)
 - Pretrained hierarchical localization models: [Anatomical Localization Models](https://github.com/HerrBaum-YR/HCL-AL/releases/tag/v1.0.0-weights)
-and then organize them as follows:
+
+And then organize them as follows:
 ```
 HCL-AL
    ├── data
-   │     ├── FDG-PET-CT-Lesions                               # Paired PET/CT scans (NIfTI format)                                     
+   │     ├── FDG-PET-CT-Lesions                             # Paired PET/CT scans (NIfTI format)                                     
    |     |    ├── 0001_PETCT_0011f3deaf_03-23-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-10445
    |     |    |     ├── CT.nii.gz
    |     |    |     └── SUV.nii.gz
    |     |    └── ...
-   |     ├── lesion_mask                                      # Multi-label lesion segmentation masks (NIfTI format)  
+   |     ├── lesion_mask                                    # Multi-label lesion segmentation masks (NIfTI format)  
    |     |    ├── 0001_PETCT_0011f3deaf_03-23-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-10445
    |     |    |     └── SEG_MultiLabel.nii.gz
    |     |    └── ...
-   |     ├── anno.csv                                         # Curated lesion localization annotations
-   |     └── bbox.csv                                         # Bounding box coordinates of annotated lesions
+   |     ├── anno.csv                                       # Curated lesion localization annotations
+   |     └── bbox.csv                                       # Bounding box coordinates of annotated lesions
    ├── pretrained_weights                                   # Pretrained models
    └── md_clip3d                                            # Main body of framework
-         ├── library                                           # Predefined anatomy knowledge                                        
-         |   ├── anatomy_vocabulary_library.json               # Hierarchical anatomical vocabulary library
-         |   └── augmented_location_descriptions.json          # Augmented anatomical location description
+         ├── library                                        # Predefined anatomy knowledge                                        
+         |   ├── anatomy_vocabulary_library.json            # Hierarchical anatomical vocabulary library
+         |   └── augmented_location_descriptions.json       # Augmented anatomical location description
          └── ...
 ```
 
