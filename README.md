@@ -57,9 +57,9 @@ Then create your inference configuration file. We provide a reference template a
 ```
 md_clip3d
    └── config                                          
-         ├── coarse_train_config.py                        Reference for coarse training
-         ├── fine_train_config.py                          Reference for fine training
-         └── inference_config.py                           Reference for inference ★
+         ├── coarse_train_config.py                         # Reference for coarse training
+         ├── fine_train_config.py                           # Reference for fine training
+         └── inference_config.py                            # Reference for inference ★
 ```
 Simply set the correct <project_path> if you've followed our default directory structure, or manually specify custom paths for models and data as needed - the system will automatically handle the rest once these locations are correctly configured.
 
