@@ -1,3 +1,7 @@
+# models and data
+data/
+pretrained_weights/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

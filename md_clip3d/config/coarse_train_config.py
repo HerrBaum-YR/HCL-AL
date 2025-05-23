@@ -1,11 +1,12 @@
 import os
 from easydict import EasyDict as edict
 from md_clip3d.utils.clip_helpers import FixedNormalizer
-import numpy as np
 
 __C = edict()
 cfg = __C
 
+# root path of your project
+project_path = "/user/HCL-AL"
 
 ##################################
 # general parameters
@@ -17,9 +18,9 @@ __C.general = {}
 # training csv file, head format
 # single modality [image_path, class, x, y, z, width, height, depth]
 # multi modality [image_path, image_path1, ..... , class, x, y, z, width, height, depth]
-__C.general.im_clip_list = "train.csv"
-__C.general.location_json = "anatomy_vocabulary_library.json"
-__C.general.translate_json = "augmented_location_descriptions.json"
+__C.general.im_clip_list = os.path.join(project_path, "data", "train_coarse.csv")
+__C.general.location_json = os.path.join(project_path, "md_clip3d", "library", "anatomy_vocabulary_library.json")
+__C.general.translate_json = os.path.join(project_path, "md_clip3d", "library", "augmented_location_descriptions.json")
 
 # the output of training models and logs
 __C.general.save_dir = 'models'
@@ -92,7 +93,7 @@ __C.dataset.box_percent_padding = 0.75  # nouse
 # the network name RubMedBERT_BasicNet, ClipText_BasicNet
 #####################################
 __C.net = {}
-__C.net.pretrained_model_dir = 'pretrained_models/'
+__C.net.pretrained_model_dir = os.path.join(project_path, "pretrained_models")
 __C.net.name = 'ClipText_ResidualNet'
 
 # 是否冻结 text encoder
