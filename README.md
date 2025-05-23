@@ -47,10 +47,6 @@ HCL-AL
    |     └── bbox.csv                                       # Bounding box coordinates of annotated lesions
    ├── pretrained_weights                                   # Pretrained models
    └── md_clip3d                                            # Main body of framework
-         ├── library                                        # Predefined anatomy knowledge                                        
-         |   ├── anatomy_vocabulary_library.json            # Hierarchical anatomical vocabulary library
-         |   └── augmented_location_descriptions.json       # Augmented anatomical location description
-         └── ...
 ```
 
 Then create your inference configuration file. We provide a reference template at:
