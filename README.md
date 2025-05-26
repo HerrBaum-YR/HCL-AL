@@ -70,7 +70,7 @@ For most applications, we recommend training a cascaded localization model (coar
 Below we demonstrate using the cascaded training approach as an example.
 
 - Configure & Train Stage 1 (Coarse Localization)
-   - Create your coarse-stage training config (e.g., configs/coarse.yaml)
+   - Create your coarse-stage training config
    - Run coarse training
    ```
    clip_coarse_train -i ./coarse_train_config.py
